@@ -474,8 +474,8 @@ section{padding-block:clamp(64px,8vw,128px)}
 /* Kontrast GWARANTOWANY niezależnie od zdjęcia: (a) ciemna LEWA kolumna pod tekstem (tekst jest do lewej, top->bottom),
    (b) górny scrim pod nav + dolny scrim. Nie liczymy na ciemne zdjęcie. */
 .hero-auto .ha-veil{position:absolute;inset:0;z-index:-1;
-  background:linear-gradient(90deg,rgba(10,12,15,.76) 0%,rgba(10,12,15,.34) 32%,rgba(10,12,15,0) 60%),
-             linear-gradient(180deg,rgba(10,12,15,.42) 0%,rgba(10,12,15,0) 30%,rgba(10,12,15,.55) 78%,rgba(10,12,15,.82) 100%)}
+  background:linear-gradient(90deg,rgba(10,12,15,.62) 0%,rgba(10,12,15,.26) 34%,rgba(10,12,15,0) 62%),
+             linear-gradient(180deg,rgba(10,12,15,.44) 0%,rgba(10,12,15,0) 30%,rgba(10,12,15,.5) 76%,rgba(10,12,15,.78) 100%)}
 .ha-inner{position:relative;z-index:2;margin:0 0 clamp(2.6rem,7vh,5rem) clamp(1.4rem,5vw,4rem);max-width:32ch}
 .ha-tick{display:block;width:48px;height:3px;background:var(--accent);margin-bottom:clamp(1rem,2.4vh,1.6rem)}
 .ha-kicker{display:block;font-family:var(--font-display);font-weight:600;text-transform:uppercase;
